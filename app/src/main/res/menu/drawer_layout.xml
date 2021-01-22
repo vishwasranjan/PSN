@@ -7,9 +7,25 @@
         <item android:id="@+id/nav_home"
             android:icon="@drawable/ic_home"
             android:title="Home"/>
-        <item android:id="@+id/nav_ifo"
-            android:icon="@drawable/ic_info"
-            android:title="Info"/>
+        <item android:id="@+id/nav_startup_story"
+            android:title="StarTup Story"/>
+        <item
+            android:id="@+id/nav_psn_vieo"
+            android:title="PSN Video"/>
+        <item
+            android:id="@+id/nav_news"
+            android:title="News"/>
+        <item
+            android:id="@+id/nav_events"
+            android:title="Events"/>
+        <item android:id="@+id/nav_resources"
+            android:title="Resources"/>
+        <item android:id="@+id/nav_blog"
+            android:title="Blog"/>
+        <item android:id="@+id/nav_forum"
+            android:title="Forum"/>
+        <item android:id="@+id/nav_quiz"
+            android:title="Quiz"/>
 
 
     </group>
@@ -18,9 +34,6 @@
             <item android:id="@+id/nav_contact"
                 android:icon="@drawable/ic_contact"
                 android:title="Contact"/>
-            <item
-                android:id="@+id/nav_call"
-                android:title="Call"/>
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_share"

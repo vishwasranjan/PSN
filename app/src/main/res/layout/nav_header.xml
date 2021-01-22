@@ -5,7 +5,8 @@
     android:layout_height="176dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark"
     android:gravity="bottom"
-    android:background="@color/teal_700">
+    android:background="@color/teal_700"
+    android:padding="16dp">
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
