@@ -1,30 +1,5 @@
 <resources>
     <string name="app_name"><b>Prabisha Startup Network</b></string>
-    <string name="about_us">About Us</string>
-    <string name="about_us_1">
-<b>Start Up leaders are real change makers of our times. They dare to dream.</b>
-    </string>
-    <string name="about_us_2">
-They think and explore new ways to make our day to day life easier and better by implementing their billion dollar ideas on the ground.
-
-Their ideas have the potential to change our world forever. Today, there are many examples like Oyo, Paytm, Google, Facebook,
-        HP, Apple, Uber, Tesla, Yulu, etc. who started their journey as a startup and have changed our world forever from their unique offerings.
-
-There are many more startup leaders who also have similar big ideas and are daring to change this world but COVID19 has impacted
-        their life and work badly. These thought leaders need our help now much more than ever before.
-
-
-    </string>
-    <string name="about_us_3">
-
-        Prabisha Consulting, a trusted name in the area of Digital Marketing, Graphics Design and Technology Development is launching an
-        initiative to help such start up leaders express their big ideas and share their dreams with all of us. We need to share their wonderful ideas and
-        let them go far and wide to help the human kind get the best of these super leaders. We need to cut the clutter and provide them equitable opportunity
-        and a promising platform for help, support and visibility.
-
-Every week, promising Start up Leaders will share their thoughts, work, learnings and future plans on the platform of Prabisha Startup Network. Join us in this
-        mission to help our thought leaders achieve their full potential.
-</string>
     <string name="title_activity_navigation_activity">navigation_activity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -36,6 +11,30 @@ Every week, promising Start up Leaders will share their thoughts, work, learning
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+
+    <string name="about_us">About Us</string>
+    <string name="about_us_detail_first">They think and explore new ways to make our day to day life
+        easier and better by implementing their billion dollar ideas on the ground.
+
+Their ideas have the potential to change our world forever. Today, there are many examples
+        like Oyo, Paytm, Google, Facebook, HP, Apple, Uber, Tesla, Yulu, etc. who started their journey as a
+        startup and have changed our world forever from their unique offerings.
+
+There are many more startup leaders who also have similar big ideas and are daring to change this world but
+        COVID19 has impacted their life and work badly. These thought leaders need our help now much more than ever before.
+    </string>
+    <string name="about_us_detail_second">
+        Prabisha Consulting, a trusted name in the area of Digital Marketing, Graphics
+        Design and Technology Development is launching an initiative to help such start up leaders express their big
+        ideas and share their dreams with all of us. We need to share their wonderful ideas and let them go far and wide
+        to help the human kind get the best of these super leaders. We need to cut the clutter and provide them equitable opportunity
+        and a promising platform for help, support and visibility.
+
+Every week, promising Start up Leaders will share their thoughts, work, learnings and future plans on the platform of
+        Prabisha Startup Network. Join us in this mission to help our thought leaders achieve their full potential.
+    </string>
+    <string name="PlanningOfStartup">How we are planning to create a startup ecosystem?</string>
+    <string name="PSNMembership">PSN Membership</string>
 
 
 </resources>

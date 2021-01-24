@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -14,100 +14,124 @@
         android:src="@drawable/ic_menu"
         android:id="@+id/menu_main"/>
 
-
     <ScrollView
-        android:id="@+id/scroll_feed"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
+        android:layout_below="@+id/menu_main">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
+            android:layout_height="match_parent"
+            android:orientation="vertical">
             <ImageView
                 android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:src="@drawable/psn_black_logo"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:padding="30dp"
-                android:scaleType="fitXY"
-                android:src="@drawable/psn_black_logo" />
+                android:text="@string/app_name"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:padding="10dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/feedmetting"
+            android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_us"
+                android:textSize="20dp"
+                android:padding="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about_us_detail_first"
+                    android:padding="20dp"
+                    android:layout_margin="25dp"
+                    android:background="@color/TextBackgroundColour"
+                    android:textSize="15dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/add2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="20dp"
+                android:text="@string/about_us_detail_second"
+                android:layout_margin="25dp"
+                android:textSize="15dp"
+                android:background="@color/TextBackgroundColour"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:padding="20dp"
+                    android:src="@drawable/add1"
+                    android:scaleType="fitXY"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:padding="25dp"
-                android:text="@string/app_name"
-                android:textSize="30dp" />
-
-            <TextView
-                android:id="@+id/aboutus"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingStart="20dp"
-                android:paddingTop="20dp"
-                android:text="@string/about_us"
-                android:textSize="30dp"
+                android:padding="20dp"
+                android:text="@string/PlanningOfStartup"
+                android:textSize="25dp"
                 android:textStyle="bold|italic" />
-
-            <LinearLayout
+            <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:src="@drawable/plannig_of_startup_image"
+                android:scaleType="fitXY"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:outlineAmbientShadowColor="@color/black"
+                android:background="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/PSNMembership"
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:textColor="#EA1E1E"
+                android:textStyle="bold"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:padding="20dp">
 
                 <TextView
-                    android:id="@+id/aboutus1"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:padding="30dp"
-                    android:text="@string/about_us_1"
-                    android:textSize="20dp" />
+                    android:layout_gravity="center|center_vertical"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="To Join this huge network of renowned CEO's of successful startup's fill the following form"
+                    android:textSize="15dp" />
 
-                <ImageView
-                    android:id="@+id/add2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="200dp"
+                <Button
+                    android:id="@+id/fill_forum"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center|center_horizontal|center_vertical"
                     android:layout_weight="1"
-                    android:src="@drawable/add2" />
+                    android:textStyle="bold"
+                    android:text="Fill Form"
+                    android:textSize="10dp"
+                    android:background = "@drawable/roundedbutton"/>
             </LinearLayout>
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:scaleType="fitXY"
-                android:src="@color/design_default_color_primary" />
-
-            <TextView
-                android:id="@+id/aboutus2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="30dp"
-                android:text="@string/about_us_2"
-                android:textSize="20dp" />
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:scaleType="fitCenter"
-                android:src="@drawable/add1" />
-
-            <TextView
-                android:id="@+id/aboutus3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="30dp"
-                android:text="@string/about_us_3"
-                android:textSize="20dp" />
 
         </LinearLayout>
     </ScrollView>
-</LinearLayout>
+</RelativeLayout>

@@ -8,6 +8,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -40,15 +41,7 @@ public class WelcomeActivity extends AppCompatActivity implements NavigationView
 
     }
 
-    @Override
-    public void onBackPressed() {
-        if (drawer.isDrawerOpen(GravityCompat.START))
-        {
-            drawer.closeDrawer(GravityCompat.START);
-        }
-        else
-        super.onBackPressed();
-    }
+
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -56,11 +49,42 @@ public class WelcomeActivity extends AppCompatActivity implements NavigationView
         {
             case R.id.nav_home:
 
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new HomeFragentt()).commit();
+//              getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new HomeFragentt()).commit();
+                Intent HomeIntent=new Intent(this,HomeActivity.class);
+                startActivity(HomeIntent);
+                break;
+            case R.id.nav_startup_story:
+                Intent StartupStoryIntent=new Intent(this,StartupStoryActivity.class);
+                startActivity(StartupStoryIntent);
+                break;
+            case R.id.nav_psn_vieo:
+                Intent PsnVideoIntent=new Intent(this,PSNVideoActivity.class);
+                startActivity(PsnVideoIntent);
+                break;
+            case R.id.nav_news:
+                Intent NewsIntent=new Intent(this,NewsActivity.class);
+                startActivity(NewsIntent);
+                break;
+            case R.id.nav_events:
+                Intent EventsIntent=new Intent(this,EventsActivity.class);
+                startActivity(EventsIntent);
+                break;
+            case R.id.nav_resources:
+                Intent ResourcesIntent=new Intent(this,ResourcesActivity.class);
+                startActivity(ResourcesIntent);
                 break;
             case R.id.nav_blog:
-
-                //
+                Intent BlogIntent=new Intent(this,BlogActivity.class);
+                startActivity(BlogIntent);
+                break;
+            case R.id.nav_forum:
+                Intent ForumIntent=new Intent(this,ForumActivity.class);
+                startActivity(ForumIntent);
+                break;
+            case R.id.nav_quiz:
+                Intent QuizIntent=new Intent(this,QuizActivity.class);
+                startActivity(QuizIntent);
+                break;
         }
         drawer.closeDrawer(GravityCompat.START);
         return true;
