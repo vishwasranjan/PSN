@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 public class RegisterUserActivity extends AppCompatActivity {
     private EditText username,password,emailid;
-    private Button btnSignup;
+    private Button btnSignup,skipForNow;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,13 +22,19 @@ public class RegisterUserActivity extends AppCompatActivity {
         password=findViewById(R.id.password);
         emailid=findViewById(R.id.emailid);
         btnSignup=findViewById(R.id.btnsignup);
+        skipForNow=findViewById(R.id.skip_for_now);
 
 
-
-        btnSignup.setOnClickListener(new View.OnClickListener() {
+        skipForNow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 TransitionToFeedactivity();
+            }
+        });
+        btnSignup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //TransitionToFeedactivity();
                 ShowToastMeassege("Sign Up Sucessfully");
             }
         });

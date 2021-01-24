@@ -13,12 +13,14 @@
         android:ems="10"
         android:paddingTop="20dp"
         android:inputType="textPersonName"
+        android:layout_margin="10dp"
         android:hint="Username" />
     <EditText
         android:id="@+id/emailid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:layout_margin="10dp"
         android:paddingTop="20dp"
         android:inputType="textEmailAddress"
         android:hint="Email-ID" />
@@ -27,13 +29,31 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:layout_margin="10dp"
         android:paddingTop="20dp"
         android:inputType="textPassword"
         android:hint="Password(At least 6 digit)" />
+
     <Button
+        android:id="@+id/btnsignup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnsignup"
-        android:text="SignUp"
-        android:layout_marginTop="20dp"/>
+        android:layout_margin="20dp"
+        android:background="@drawable/round_button_register_page"
+        android:text="SignUp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/app_logo"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/skip_for_now"
+        android:background="@drawable/round_button_register_page"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Skip for now>>>" />
 </LinearLayout>

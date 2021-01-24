@@ -22,7 +22,8 @@
         <activity
             android:name=".WelcomeActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".RegisterUserActivity" />
+        <activity android:name=".RegisterUserActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".FeedActivity"
             android:theme="@style/AppTheme.NoActionBar" />

@@ -31,6 +31,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/app_name"
+                android:textStyle="bold"
                 android:gravity="center"
                 android:textSize="25dp"
                 android:padding="10dp"/>
@@ -131,6 +132,117 @@
                     android:textSize="10dp"
                     android:background = "@drawable/roundedbutton"/>
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:layout_gravity="center|center_vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="OUR MISSION, VISION AND VALUES"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_margin="10dp"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="MISSION  –  Make a Group of 100 Startup Leaders in next one year"
+                        android:textSize="15dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textSize="15dp"
+                        android:text="VISION     –  Create a Strong, Vibrant and Global Ecosystem of Startup Leaders"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textSize="15dp"
+                        android:text="VALUES   –  Innovation, Business Excellence, Collaboration, Integrity and Diversity"/>
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:layout_weight="1"
+                    android:src="@drawable/indian_enterprenur_feed"
+                    android:padding="10dp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:layout_weight="1"
+                    android:src="@drawable/feed_image_mission"
+                    android:padding="10dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:layout_gravity="center|center_vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Prabisha Startup Network is an initiative started by Prabisha Consulting, a trusted name in the area of"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_margin="10dp"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text=" > Digital Marketing,"
+                        android:textSize="15dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textSize="15dp"
+                        android:text=" > Graphic Design and "/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textSize="15dp"
+                        android:text=" > Technology Development."/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textSize="15dp"
+                        android:text="@string/feed_information"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/visit_our_website"
+                android:background="@drawable/roundedbutton"
+                android:text="Visit Our Website"
+                android:textSize="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"/>
 
         </LinearLayout>
     </ScrollView>
