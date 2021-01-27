@@ -8,6 +8,7 @@
             android:icon="@drawable/ic_home"
             android:title="Home"/>
         <item android:id="@+id/nav_startup_story"
+            android:icon="@drawable/psn_black_logo"
             android:title="StarTup Story"/>
         <item
             android:id="@+id/nav_psn_vieo"
@@ -30,6 +31,9 @@
         <item android:id="@+id/nav_quiz"
             android:title="Quiz"
             android:icon="@drawable/ic_quiz"/>
+        <item android:id="@+id/nav_logout"
+            android:title="LogOut"
+            android:icon="@drawable/ic_logout"/>
 
 
     </group>

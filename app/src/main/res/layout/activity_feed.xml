@@ -40,21 +40,22 @@
             android:layout_height="200dp"
             android:src="@drawable/feedmetting"
             android:scaleType="fitXY"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="20dp"
                 android:text="@string/about_us"
-                android:textSize="20dp"
-                android:padding="20dp"/>
+                android:textSize="20dp" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/about_us_detail_first"
-                    android:padding="20dp"
-                    android:layout_margin="25dp"
-                    android:background="@color/TextBackgroundColour"
-                    android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:background="@color/TextBackgroundColour"
+                android:padding="20dp"
+                android:text="@string/about_us_detail_first"
+                android:textSize="15dp" />
 
             <ImageView
                 android:layout_width="match_parent"
@@ -70,12 +71,13 @@
                 android:layout_margin="25dp"
                 android:textSize="15dp"
                 android:background="@color/TextBackgroundColour"/>
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="300dp"
-                    android:padding="20dp"
-                    android:src="@drawable/add1"
-                    android:scaleType="fitXY"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/add1" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -104,6 +106,15 @@
                 android:padding="10dp"
                 android:textColor="#EA1E1E"
                 android:textStyle="bold"/>
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youtube_player_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="D2Li2DvxVpY"
+                app:autoPlay="false"
+                app:showFullScreenButton="true" />
+
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -132,6 +143,15 @@
                     android:textSize="10dp"
                     android:background = "@drawable/roundedbutton"/>
             </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OUR MISSION, VISION AND VALUES"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:gravity="center"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -139,19 +159,11 @@
                 android:weightSum="2">
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:layout_weight="1"
                     android:padding="10dp"
                     android:layout_gravity="center|center_vertical">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="OUR MISSION, VISION AND VALUES"
-                        android:textStyle="bold"
-                        android:textSize="20dp"
-                        android:layout_margin="10dp"
-                        android:gravity="center"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -171,34 +183,30 @@
                         android:textSize="15dp"
                         android:text="VALUES   –  Innovation, Business Excellence, Collaboration, Integrity and Diversity"/>
                 </LinearLayout>
+
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:scaleType="fitXY"
                     android:layout_weight="1"
-                    android:src="@drawable/indian_enterprenur_feed"
-                    android:padding="10dp"/>
+
+                    android:padding="10dp"
+                    android:src="@drawable/feed_image_mission" />
             </LinearLayout>
 
 
-            <LinearLayout
+            <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:weightSum="2">
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:scaleType="fitXY"
-                    android:layout_weight="1"
-                    android:src="@drawable/feed_image_mission"
-                    android:padding="10dp"/>
+                android:padding="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/indian_enterprenur_feed" />
+
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:layout_weight="1"
-                    android:padding="10dp"
+                    android:padding="20dp"
                     android:layout_gravity="center|center_vertical">
                     <TextView
                         android:layout_width="match_parent"
@@ -225,15 +233,15 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:textSize="15dp"
-                        android:text=" > Technology Development."/>
+                        android:text=" > Technology Development." />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:textSize="15dp"
                         android:text="@string/feed_information"/>
+
                 </LinearLayout>
-            </LinearLayout>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -243,6 +251,7 @@
                 android:textSize="25dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="10dp"/>
+
 
         </LinearLayout>
     </ScrollView>

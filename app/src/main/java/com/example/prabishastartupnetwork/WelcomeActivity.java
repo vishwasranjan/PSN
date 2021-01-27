@@ -18,6 +18,8 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class WelcomeActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     Toolbar toolbar;
@@ -85,6 +87,18 @@ public class WelcomeActivity extends AppCompatActivity implements NavigationView
                 Intent QuizIntent=new Intent(this,QuizActivity.class);
                 startActivity(QuizIntent);
                 break;
+            case R.id.nav_contact:
+                Intent ContactIntent=new Intent(this,ContactActivity.class);
+                startActivity(ContactIntent);
+                break;
+            case R.id.nav_logout:
+                FirebaseAuth.getInstance().signOut();
+                finish();
+                Intent Intent=new Intent(this,RegisterUserActivity.class);
+                startActivity(Intent);
+
+                break;
+
         }
         drawer.closeDrawer(GravityCompat.START);
         return true;

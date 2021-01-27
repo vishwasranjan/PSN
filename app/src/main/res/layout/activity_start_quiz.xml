@@ -6,5 +6,44 @@
     android:layout_height="match_parent"
     tools:context=".StartQuizActivity"
     android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/quiz_ques"
+                android:layout_margin="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="True"
+                    android:id="@+id/btn_true"
+                    android:background="@drawable/roundedbutton"
+                    android:textColor="#08E811"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="False"
+                    android:id="@+id/btn_false"
+                    android:textColor="#E82005"
+                    android:background="@drawable/roundedbutton"
+                    android:layout_margin="20dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

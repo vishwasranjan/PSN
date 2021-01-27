@@ -19,7 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/start_the_quiz"
-        android:background="#2196F3"
+        android:background="@drawable/roundedbutton"
         android:padding="5dp"
         android:text="Start the Quiz"
         android:textColor="#F4F8FB"

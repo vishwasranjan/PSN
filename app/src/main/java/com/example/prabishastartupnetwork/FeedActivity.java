@@ -7,6 +7,7 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
@@ -17,7 +18,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 import android.widget.Toolbar;
+import android.widget.VideoView;
+
+import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView;
 
 public class FeedActivity extends AppCompatActivity{
     private ImageView Menu;
@@ -31,6 +36,11 @@ public class FeedActivity extends AppCompatActivity{
         Menu=findViewById(R.id.menu_main);
         fillforum=findViewById(R.id.fill_forum);
         visitWebsite=findViewById(R.id.visit_our_website);
+
+
+        YouTubePlayerView youTubePlayerView = findViewById(R.id.youtube_player_view);
+        getLifecycle().addObserver(youTubePlayerView);
+
         Menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -56,6 +66,8 @@ public class FeedActivity extends AppCompatActivity{
                 startActivity(intent);
             }
         });
+
     }
+
 
 }
