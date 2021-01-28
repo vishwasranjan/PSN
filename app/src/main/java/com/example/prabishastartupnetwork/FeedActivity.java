@@ -7,6 +7,7 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
+import android.media.Image;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
@@ -28,6 +29,7 @@ public class FeedActivity extends AppCompatActivity{
     private ImageView Menu;
     Button fillforum;
     TextView visitWebsite;
+    ImageView eCommereceWebsiteAdd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +38,17 @@ public class FeedActivity extends AppCompatActivity{
         Menu=findViewById(R.id.menu_main);
         fillforum=findViewById(R.id.fill_forum);
         visitWebsite=findViewById(R.id.visit_our_website);
+        eCommereceWebsiteAdd=findViewById(R.id.new_e_commerce_add);
+        eCommereceWebsiteAdd.setTranslationX(5000f);
+        eCommereceWebsiteAdd.animate().translationXBy(-5000f).setDuration(2000);
+        eCommereceWebsiteAdd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri uri = Uri.parse("https://www.prabisha.com/web-development/");
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
+            }
+        });
 
 
         YouTubePlayerView youTubePlayerView = findViewById(R.id.youtube_player_view);

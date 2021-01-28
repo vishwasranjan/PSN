@@ -5,10 +5,13 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.app.ShareCompat;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -39,8 +42,6 @@ public class WelcomeActivity extends AppCompatActivity implements NavigationView
         Toggle.syncState();
         NavigationView navigationView=findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
-
     }
 
 
@@ -94,10 +95,18 @@ public class WelcomeActivity extends AppCompatActivity implements NavigationView
             case R.id.nav_logout:
                 FirebaseAuth.getInstance().signOut();
                 finish();
-                Intent Intent=new Intent(this,RegisterUserActivity.class);
-                startActivity(Intent);
-
+                Intent LogoutIntent=new Intent(this,RegisterUserActivity.class);
+                LogoutIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(LogoutIntent);
                 break;
+//            case R.id.nav_share:
+//                final String appPackageName = WelcomeActivity.this.getPackageName();
+//                Intent sendIntent = new Intent();
+//                sendIntent.setAction(Intent.ACTION_SEND);
+//                sendIntent.putExtra(Intent.EXTRA_TEXT, "Check out the App at: https://play.google.com/store/apps/details?id=" + appPackageName);
+//                sendIntent.setType("text/plain");
+//                WelcomeActivity.this.startActivity(sendIntent);
+//                break;
 
         }
         drawer.closeDrawer(GravityCompat.START);

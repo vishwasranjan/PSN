@@ -23,11 +23,14 @@
             android:title="Events"
             android:icon="@drawable/ic_event"/>
         <item android:id="@+id/nav_resources"
-            android:title="Resources"/>
+            android:title="Resources"
+            android:icon="@drawable/nav_resources"/>
         <item android:id="@+id/nav_blog"
-            android:title="Blog"/>
+            android:title="Blog"
+            android:icon="@drawable/nav_blog"/>
         <item android:id="@+id/nav_forum"
-            android:title="Forum"/>
+            android:title="Forum"
+            android:icon="@drawable/nav_forum"/>
         <item android:id="@+id/nav_quiz"
             android:title="Quiz"
             android:icon="@drawable/ic_quiz"/>
@@ -42,10 +45,7 @@
             <item android:id="@+id/nav_contact"
                 android:icon="@drawable/ic_contact"
                 android:title="Contact"/>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_share"
-                android:title="Share"/>
+
         </menu>
     </item>
 </menu>

@@ -38,7 +38,7 @@
         android:id="@+id/btnsignup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         android:background="@drawable/round_button_register_page"
         android:text="SignUp" />
 
@@ -54,7 +54,6 @@
         android:id="@+id/skip_for_now"
         android:background="@drawable/round_button_register_page"
         android:layout_gravity="center"
-        android:layout_margin="10dp"
         android:text="Skip for now>>>" />
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

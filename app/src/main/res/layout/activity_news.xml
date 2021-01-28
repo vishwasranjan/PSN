@@ -4,6 +4,108 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NewsActivity">
+    tools:context=".NewsActivity"
+    android:background="@drawable/news_back_image">
+
+    <ScrollView
+        android:id="@+id/news_feed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:id="@+id/news1"
+                android:textStyle="bold"
+                android:background="@color/TextBackgroundColour"
+                android:text="@string/news_1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:id="@+id/news2"
+                android:textStyle="bold"
+                android:background="@color/TextBackgroundColour"
+                android:text="@string/news_2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:id="@+id/news3"
+                android:textStyle="bold"
+                android:background="@color/TextBackgroundColour"
+                android:text="@string/news_3" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:id="@+id/news4"
+                android:textStyle="bold"
+                android:background="@color/TextBackgroundColour"
+                android:text="@string/news_4" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:id="@+id/news5"
+                android:textStyle="bold"
+                android:background="@color/TextBackgroundColour"
+                android:text="@string/news_5" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:id="@+id/news6"
+                android:textStyle="bold"
+                android:background="@color/TextBackgroundColour"
+                android:text="@string/news_6" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:id="@+id/news7"
+                android:textStyle="bold"
+                android:background="@color/TextBackgroundColour"
+                android:text="@string/news_7" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:id="@+id/news8"
+                android:textStyle="bold"
+                android:background="@color/TextBackgroundColour"
+                android:text="@string/news_8" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:id="@+id/news9"
+                android:textStyle="bold"
+                android:background="@color/TextBackgroundColour"
+                android:text="@string/news_9" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:id="@+id/news10"
+                android:textStyle="bold"
+                android:background="@color/TextBackgroundColour"
+                android:text="@string/news_10" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
