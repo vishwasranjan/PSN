@@ -42,33 +42,32 @@
         android:background="@drawable/round_button_register_page"
         android:text="SignUp" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/app_logo"
-        android:layout_gravity="center"
-        android:layout_margin="5dp"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/skip_for_now"
-        android:background="@drawable/round_button_register_page"
-        android:layout_gravity="center"
-        android:text="Skip for now>>>" />
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView
+        <ImageView
+            android:id="@+id/google_signin"
             android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginBottom="25dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/google_sign_in_image"
+            app:layout_constraintBottom_toTopOf="@+id/alredy_have_account"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
             android:id="@+id/alredy_have_account"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
             android:text="Alreay have a account?"
             android:textSize="15dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintStart_toStartOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>

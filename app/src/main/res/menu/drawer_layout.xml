@@ -9,7 +9,7 @@
             android:title="Home"/>
         <item android:id="@+id/nav_startup_story"
             android:icon="@drawable/psn_black_logo"
-            android:title="StarTup Story"/>
+            android:title="Startup Story"/>
         <item
             android:id="@+id/nav_psn_vieo"
             android:title="PSN Video"
