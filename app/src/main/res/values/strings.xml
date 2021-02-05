@@ -69,4 +69,102 @@ There are many more startup leaders who also have similar big ideas and are dari
     <string name="news_8">Education companies revenues to remain flat in 2020-21: Report</string>
     <string name="news_9">Expecting a rebound in health services soon, says Ayushman Bharat CEO</string>
     <string name="news_10">Adani Ports raises $500 mn selling 10-year bonds to foreign investors</string>
+    <string name="blog1">1. HOW INDIAN START-UPS ARE HELPING IN NATION BUILDING</string>
+    <string name="blog1_detail">India is remarkably growing and developing among various sectors of the Industry such as FINTECH,
+        AI (artificial intelligence), MedTech, hospitality, automobiles, and more. Here, start-ups play a significant role. Start-ups
+        are small companies with fewer funds and few entrepreneurs, But despite being a small company it has an immense
+        role to play in economic growth and development. They also help in contributing to innovation and injecting competition.
+        Allowing the start-ups to bring a ray of hope to the people that lack capital shouldn’t be the restrictive factor.
+
+        An idea, no matter how small can be the new big innovation out there. Today, the building
+        of a nation depends on the quality and scale of start-ups that any country possesses. In India,
+        there is a rise in the number of start-ups from the previous year. India has become a hub of creativity where
+        people are keen to learn, explore, and are hardworking which results in pushing up several new start-ups. There was an
+        addition of about more than 1300 start-ups from distinct sectors in 2019. These start-ups allow entrepreneurs to show
+        their creativity and also provide them with the platform for the same. Due to these start-ups, there is a great jump
+        in employment. Every new start-up needs a team, workers, staff to work along with.
+
+        Around 500 million users of the Internet are from rural areas and the smaller town of India.
+        Start-ups have also resulted in removing the gap between urban and rural areas, instead, they
+        also allow them to learn and showcase their talent in front of the whole society. Start-ups have become
+        the resource for the people who have talent but due to lack of money and technology they are not able to
+        accomplish their dreams. Many successful start-ups have shown tremendous results in very little time such
+        as One97 (Paytm) industry, Ola cabs, Snapdeal, Swiggy, Zomato, and many more. The Government of India has
+        also supported our youth with their projects and has taken adequate steps to promote the culture of entrepreneurship in the country.
+
+        Start-up India initiative (or start-up India program) was launched by the Indian Government in 2016 for supporting
+        entrepreneurs by building a robust start-up ecosystem, giving them funding support and the government also started
+        ‘GeM Start-up Runway’ is a special concept launched by GeM (Government e-marketplace) in partnership with Start-up India.
+        The platform grants an opportunity for start-ups where they can directly get orders from government buyers. Under the Start-up
+        India program, the government also created the ‘Fund of funds of start-ups(FFS) with a collection of INR 10,000 crore funding promising start-ups.
+
+        We have already witnessed a lot of successful businesses that started as mere start-ups and a lot more are yet to come.
+        Start-up indeed is the seeds that help to grow a more powerful and technically strong nation. India is on the path to build
+        a nation that attracts and inspires not only the citizens of our county but also other nations. Start-ups are playing a key
+        role in economic growth and they create more jobs which mean more employment and which results in an improved economy.</string>
+    <string name="blog2">2. Build your own Cloud Storage System using Nextcloud</string>
+    <string name="blog2_detail">Why waste valuable storage space on your PC or phone when you can store documents and media in the cloud?
+        Computer systems have been steadily moving away from local storage to remote, server based storage and processing – which is also known
+        as the cloud.
+        Is cloud storage really needed?
+        Cloud storage is ideal when you want to access your personal files, documents, videos or images quickly. With the cloud, your data is
+        stored on hardware that is in a remote physical location, which can then be accessed from any device over the Internet. Cloud storage
+        delivers a cost-effective, scalable alternative to storing files in on-premise hard drives or storage networks.
+        If you don’t yet have a service for storing and syncing your data in the cloud, you should seriously consider using one.</string>
+    <string name="blog3">3. Build a Backup and Recovery Solution with Duplicati</string>
+    <string name="blog3_detail">Data volume has been growing exponentially, and dramatically increasing opportunities for theft and accidental disclosure
+        of sensitive information as well as sequential data loss. The most important preventive measure against data loss is to back
+        up all your data and create recovery mechanisms.
+        There can be various situations that might result in loss of data. For example, a computer or hard drive failure could make data irretrievable,
+        or even theft of a computer system could lead to loss of information. There is always the possibility of a virus or malware being
+        introduced to a computer, which can erase a hard drive or prevent anyone from accessing it. Natural calamities such as fire, flood, or an
+        earthquake could lead to computer damage, preventing you from accessing files on your computer.
+        Data loss can happen to anyone at any time, and it might happen when we least expect it or are least prepared. So, you need to have your data
+        backed up and available. Data backup is the best strategy to recover from accidental or malicious data loss.</string>
+
+    <string name="technology_details">At Intentico, we believe your business is unique and so are your customers. Your needs are different at
+        different times and so are the needs of your customers based on innumerable factors. You can rely on our Virtual Assistants being smart
+        personal assistants for your customers and augment your human agents, operate 24/7 and provide multiple benefits . With us, you build a
+        brand of customer service that is faster, cheaper and better. Give the choice of channel to your customers yet reduce service costs or increase
+        revenues by deploying our solutions. Artificial Intelligence : The team brings in top-notch Machine Learning, Deep Learning, Natural Language
+        Processing (NLU/NLG) capabilities. Business Experience The team understands live chat, bot, IVR, voice, optimization, campaigns , customer and
+        business. Domain Knowledge : Team has rich experience in banking, telecom, retail, e-commerce, healthcare and customer service domains Singular
+        Experience : Maintain one unique and singular experience across your customer interaction channels . The 1 minute CX : Showcase a fantastic
+        customer experience in 1 minute by deploying our bots on your interaction channels . CX Partners : We understand your challenges and are with
+        you till we deliver committed results.
+    </string>
+    <string name="education_detail_1">Samagraa is an independent, non profit, non government charitable trust. It is a passion project,
+        run by enthusiasts for the well being and to bridge the academic and social gap of children coming from economically weak backgrounds
+        who have gained admission in premier, mainstream schools of Delhi, under the Right to Education act, in the EWS category. Our mission is
+        to empower these kids to strike a balance for a better socio- economic development in their lives. Our Aim is to maximise the benefit these children
+        have been given due to the government’s policy of inclusion and help them take a leap in life, by enhancing their skills.</string>
+    <string name="education_detail_2">To develop happy, responsible, sensitive, academically oriented, balanced kids .
+        To train the children to set themselves clear goals and to encourage and direct them to work towards achieving them.
+        To empower the children with the skills of rationalization,
+        to enable them to take critical life decisions later. To inspire individual, responsible, creative thinking.</string>
+    <string name="healthcare_detail">Wings Within is an organization catering to end-to-end solutions in the area of Emotional Wellness,
+        Special Education needs, Life Skills coaching, Psychological Assessments, research and training. Counseling relationships will vary
+        according to need but may be concerned with developmental issues, addressing and resolving specific problems, making informed decisions,
+        coping with crisis. We offer state-of-the-art psychological assessments to help arrive at logical hypotheses about individuals and their
+        behavior, personality, preferences and capabilities. Psychological assessment is also known as psychological testing or battery assessment.
+        With Life Skills coaching, we set robust platform to explore abilities for adaptive and positive behavior that enables individuals to deal
+        effectively with the demands and challenges of everyday life. We customize our programs to align with counselees or clients requirements
+        by providing 1 on 1 (face to face) interaction, email communication, over phone and at work place.</string>
+    <string name="social_detail_1">We connect blood donor with blood seeker so that a donor can see visible impact created by their blood in someone’s life .
+        Our platform connects blood donors and blood seekers on real time which reduces time. </string>
+    <string name="social_detail_2">Samagraa is an independent, non profit, non government charitable trust. It is a passion project, run by enthusiasts for the
+        well being and to bridge the academic and social gap of children coming from economically weak backgrounds.</string>
+    <string name="women_detail_1">Wings Within is an organization catering to end-to-end solutions in the area of Emotional Wellness, Special Education needs,
+        Life Skills coaching, Psychological Assessments, research and training. Counseling relationships will vary according to need but may be concerned
+        with developmental issues, addressing and resolving specific problems, making informed decisions, coping with crisis. We offer state-of-the-art
+        psychological assessments to help arrive at logical hypotheses about individuals and their behavior, personality, preferences and capabilities.
+        Psychological assessment is also known as psychological testing or battery assessment. With Life Skills coaching, we set robust platform
+        to explore abilities for adaptive and positive behavior that enables individuals to deal effectively with the demands and challenges of
+        everyday life. We customize our programs to align with counselees or clients requirements by providing 1 on 1 (face to face) interaction,
+        email communication, over phone and at work place.</string>
+    <string name="women_detail_2">Samagraa is an independent, non profit, non government charitable trust. It is a passion project, run by enthusiasts
+        for the well being and to bridge the academic and social gap of children coming from economically weak backgrounds who have gained admission in
+        premier, mainstream schools of Delhi, under the Right to Education act, in the EWS category. Our mission is to empower these kids to strike a
+        balance for a better socio- economic development in their lives. Our Aim is to maximise the benefit
+        these children have been given due to the government’s policy of inclusion and help them take a leap in life, by enhancing their skills.</string>
 </resources>

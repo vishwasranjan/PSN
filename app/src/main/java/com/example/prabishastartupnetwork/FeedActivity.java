@@ -35,7 +35,7 @@ public class FeedActivity extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feed);
-        Menu=findViewById(R.id.menu_main);
+       // Menu=findViewById(R.id.menu_main);
         fillforum=findViewById(R.id.fill_forum);
         visitWebsite=findViewById(R.id.visit_our_website);
         eCommereceWebsiteAdd=findViewById(R.id.new_e_commerce_add);
@@ -54,13 +54,13 @@ public class FeedActivity extends AppCompatActivity{
         YouTubePlayerView youTubePlayerView = findViewById(R.id.youtube_player_view);
         getLifecycle().addObserver(youTubePlayerView);
 
-        Menu.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(FeedActivity.this,WelcomeActivity.class);
-                startActivity(intent);
-            }
-        });
+//        Menu.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent=new Intent(FeedActivity.this,WelcomeActivity.class);
+//                startActivity(intent);
+//            }
+//        });
 
         fillforum.setOnClickListener(new View.OnClickListener() {
             @Override

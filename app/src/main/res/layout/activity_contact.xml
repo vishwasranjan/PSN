@@ -4,111 +4,150 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ContactActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".ContactActivity">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="For any queries related to Prabisha Startup Network, reach out to us."
-        android:textStyle="bold"
-        android:gravity="start"
         android:layout_margin="20dp"
-        android:textSize="15dp" />
+        android:gravity="start"
+        android:text="For any queries related to Prabisha Startup Network, reach out to us."
+        android:textSize="15dp"
+        android:textStyle="bold" />
 
 
-        <TableLayout
-            android:layout_width="match_parent"
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:src="@drawable/ic_contact" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:text="D4/4029, Vasant Kunj, New Delhi - 110070" />
+
+        </TableRow>
+
+        <TableRow android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:src="@drawable/ic_mail" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="200dp"
+                android:text="info@prabisha.com" />
+        </TableRow>
+
+        <TableRow android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:src="@drawable/ic_phone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="200dp"
+                android:text="+91 9599 824 600 \n+91 9315 123 689" />
+        </TableRow>
+
+
+    </TableLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="start"
+        android:text="Follow Us"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp">
+        <ImageView
+            android:id="@+id/facebook_follow"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:layout_margin="10dp">
-            <TableRow
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:padding="10dp">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_column="1"
-                    android:src="@drawable/ic_contact"/>
-
-                <TextView
-                    android:layout_width="200dp"
-                    android:layout_height="wrap_content"
-                    android:text="D4/4029, Vasant Kunj, New Delhi - 110070"
-                    android:layout_column="2" />
-
-            </TableRow>
-
-            <TableRow
-                android:padding="10dp">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_column="1"
-                    android:src="@drawable/ic_mail"/>
-
-                <TextView
-                    android:width="200dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="info@prabisha.com"/>
-            </TableRow>
-            <TableRow
-                android:padding="10dp">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_column="1"
-                    android:src="@drawable/ic_phone"/>
-
-                <TextView
-                    android:width="200dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="+91 9599 824 600 \n+91 9315 123 689"/>
-            </TableRow>
+            android:src="@drawable/facebook_icon"
+            android:layout_margin="5dp"/>
+        <ImageView
+            android:id="@+id/ln_follow"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/linkidin_logo"
+            android:layout_margin="5dp"/>
+        <ImageView
+            android:id="@+id/twitter_follow"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/twitter_logo"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
 
 
-        </TableLayout>
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
             android:weightSum="3">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
 
+            <ImageView
                 android:id="@+id/new_website_add"
-                android:src="@drawable/new_website_add"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_weight="1"/>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-
                 android:layout_weight="1"
+                android:src="@drawable/new_website_add" />
+
+            <ImageView
                 android:id="@+id/new_logo_add"
-                android:src="@drawable/logo_design_add"
-                android:layout_gravity="center"/>
-            <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
 
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_weight="1"
+                android:src="@drawable/logo_design_add" />
+
+            <ImageView
                 android:id="@+id/new_animation_video_add"
-                android:src="@drawable/animation_video_add"
-                android:layout_gravity="center"/>
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/animation_video_add" />
         </LinearLayout>
     </ScrollView>
-
 
 
 </LinearLayout>

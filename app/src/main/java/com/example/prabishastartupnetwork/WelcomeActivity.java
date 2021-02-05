@@ -28,6 +28,8 @@ public class WelcomeActivity extends AppCompatActivity implements NavigationView
     Toolbar toolbar;
     private DrawerLayout drawer;
 
+    //For navigation bar
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -109,7 +111,7 @@ public class WelcomeActivity extends AppCompatActivity implements NavigationView
 //                break;
 
         }
-        drawer.closeDrawer(GravityCompat.START);
+        finish();
         return true;
     }
 }

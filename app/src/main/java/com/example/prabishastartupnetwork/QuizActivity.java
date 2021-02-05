@@ -17,7 +17,8 @@ public class QuizActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
         start_the_quiz=findViewById(R.id.start_the_quiz);
-        start_the_quiz.animate().rotationXBy(360*5).setDuration(1500);
+        start_the_quiz.setTranslationX(-5000f);
+        start_the_quiz.animate().rotationXBy(360*5).translationXBy(5000f).setDuration(1500);
         start_the_quiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

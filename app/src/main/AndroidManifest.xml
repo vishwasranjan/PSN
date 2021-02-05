@@ -11,10 +11,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PrabishaStartupNetwork">
-        <activity android:name=".logInActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
+        <activity android:name=".HomeLayout"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".InternationalActivity" />
+        <activity android:name=".RuralActivity" />
+        <activity android:name=".WomenActivity" />
+        <activity android:name=".SocialWorkActivity" />
+        <activity android:name=".HealthcareActivity" />
+        <activity android:name=".EducationActivity"></activity>
+        <activity android:name=".TechnologyActivity"></activity>
+        <activity
+            android:name=".logInActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ContactActivity" />
         <activity
             android:name=".StartQuizActivity"

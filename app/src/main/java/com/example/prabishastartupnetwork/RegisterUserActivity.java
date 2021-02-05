@@ -83,10 +83,10 @@ public class RegisterUserActivity extends AppCompatActivity {
             }
         });
     }
-    public void TransitionToFeedactivity()
+    public void TransitionToFeedlayoutactivity()
     {
         //Transition to feed activity after signin sucessfully
-        Intent intent=new Intent(this,FeedActivity.class);
+        Intent intent=new Intent(this,HomeLayout.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
     }
@@ -102,7 +102,7 @@ public class RegisterUserActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            TransitionToFeedactivity();
+                            TransitionToFeedlayoutactivity();
                             ///Storing user information
 
                             FirebaseDatabase.getInstance().getReference()
@@ -129,7 +129,7 @@ public class RegisterUserActivity extends AppCompatActivity {
         FirebaseUser currentUser = mAuth.getCurrentUser();
         if (currentUser!=null)
         {
-            TransitionToFeedactivity();
+            TransitionToFeedlayoutactivity();
         }
     }
     public void createRequest()
@@ -174,7 +174,7 @@ public class RegisterUserActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             // Sign in success, update UI with the signed-in user's information
                             FirebaseUser user = mAuth.getCurrentUser();
-                            TransitionToFeedactivity();
+                            TransitionToFeedlayoutactivity();
 
                             //Saving Data
                             FirebaseDatabase.getInstance().getReference()

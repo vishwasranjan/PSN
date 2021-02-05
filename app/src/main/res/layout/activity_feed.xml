@@ -7,17 +7,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".FeedActivity">
-    <ImageView
-        android:paddingTop="5dp"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:src="@drawable/ic_menu"
-        android:id="@+id/menu_main"/>
+<!--    <ImageView-->
+<!--        android:paddingTop="5dp"-->
+<!--        android:layout_width="40dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:src="@drawable/ic_menu"-->
+<!--        android:id="@+id/menu_main"/>-->
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/menu_main">
+        android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -113,7 +112,7 @@
                 android:layout_height="wrap_content"
                 app:videoId="D2Li2DvxVpY"
                 app:autoPlay="false"
-                app:showFullScreenButton="true" />
+                app:showFullScreenButton="false" />
 
             <LinearLayout
                 android:layout_width="fill_parent"
@@ -139,7 +138,7 @@
                     android:layout_gravity="center|center_horizontal|center_vertical"
                     android:layout_weight="1"
                     android:textStyle="bold"
-                    android:text="Fill Form"
+                    android:text="Join"
                     android:textSize="10dp"
                     android:background = "@drawable/roundedbutton"/>
             </LinearLayout>

@@ -1,9 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".StartupStoryActivity">
+    android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="1"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:layout_gravity="fill_horizontal"
+            android:background="@color/TextBackgroundColour"
+            android:text="Technical"
+            android:id="@+id/Startup_technical"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:textColor="#451F13"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:background="@color/TextBackgroundColour"
+            android:text="Education"
+            android:id="@+id/Startup_education"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:textColor="#451F13"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:background="@color/TextBackgroundColour"
+            android:text="Healthcare"
+            android:id="@+id/Startup_healthcare"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:textColor="#451F13"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:layout_gravity="fill_horizontal"
+            android:background="@color/TextBackgroundColour"
+            android:text="Social"
+            android:id="@+id/Startup_social"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:textColor="#451F13"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:layout_gravity="fill_horizontal"
+            android:background="@color/TextBackgroundColour"
+            android:text="Rural"
+            android:id="@+id/Startup_rural"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:textColor="#451F13"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:layout_gravity="fill_horizontal"
+            android:background="@color/TextBackgroundColour"
+            android:text="Women"
+            android:id="@+id/Startup_women"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:textColor="#451F13"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:layout_gravity="fill_horizontal"
+            android:background="@color/TextBackgroundColour"
+            android:text="International"
+            android:id="@+id/Startup_international"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:textColor="#451F13"/>
+
+    </GridLayout>
+</ScrollView>
