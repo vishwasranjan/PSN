@@ -5,12 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".logInActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:id="@+id/back_image_login"
+    android:background="@drawable/feedmetting">
     <EditText
         android:id="@+id/emailid_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:textColorHint="@color/text_colour"
+        android:textStyle="bold"
         android:layout_margin="10dp"
         android:paddingTop="20dp"
         android:inputType="textEmailAddress"
@@ -20,6 +24,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:textColorHint="@color/text_colour"
+        android:textStyle="bold"
         android:layout_margin="10dp"
         android:paddingTop="20dp"
         android:inputType="textVisiblePassword"

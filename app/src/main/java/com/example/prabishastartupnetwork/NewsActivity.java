@@ -17,6 +17,7 @@ public class NewsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_news);
+        setTitle("Startup News");
         news1 = findViewById(R.id.news1);
         news2 = findViewById(R.id.news2);
         news3 = findViewById(R.id.news3);

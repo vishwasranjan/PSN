@@ -18,6 +18,8 @@
                 android:layout_width="match_parent"
                 android:layout_marginTop="20dp"
                 android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
                 android:textColor="@color/TextBackgroundColour"
                 android:text="Women in Starups"
                 android:textSize="25dp"
@@ -38,7 +40,8 @@
                 android:text="Wings Within"
                 android:gravity="center"
                 android:textSize="25dp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:textColor="@color/text_colour"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -49,7 +52,8 @@
                 android:textSize="20dp"
                 android:layout_margin="20dp"
                 android:background="@color/TextBackgroundColour"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:gravity="center" />
             <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
                 android:id="@+id/youtube_player_view_4"
                 android:layout_width="match_parent"
@@ -66,7 +70,8 @@
                 android:text="Samagraa"
                 android:gravity="center"
                 android:textSize="25dp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:textColor="@color/text_colour"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_marginTop="20dp"
@@ -76,7 +81,28 @@
                 android:textSize="20dp"
                 android:layout_margin="20dp"
                 android:background="@color/TextBackgroundColour"
+                android:textStyle="bold"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:text="Our vision at Samagraa"
+                android:textColor="@color/text_colour"
+                android:gravity="center"
+                android:textSize="25dp"
                 android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:text="@string/our_vision_at_smagara"
+                android:padding="20dp"
+                android:textSize="20dp"
+                android:layout_margin="20dp"
+                android:background="@color/TextBackgroundColour"
+                android:textStyle="bold"
+                android:gravity="center"/>
 
 
         </LinearLayout>

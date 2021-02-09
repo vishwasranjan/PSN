@@ -69,7 +69,7 @@ There are many more startup leaders who also have similar big ideas and are dari
     <string name="news_8">Education companies revenues to remain flat in 2020-21: Report</string>
     <string name="news_9">Expecting a rebound in health services soon, says Ayushman Bharat CEO</string>
     <string name="news_10">Adani Ports raises $500 mn selling 10-year bonds to foreign investors</string>
-    <string name="blog1">1. HOW INDIAN START-UPS ARE HELPING IN NATION BUILDING</string>
+    <string name="blog1">1. How Indian Start-ups are helping in nation Building</string>
     <string name="blog1_detail">India is remarkably growing and developing among various sectors of the Industry such as FINTECH,
         AI (artificial intelligence), MedTech, hospitality, automobiles, and more. Here, start-ups play a significant role. Start-ups
         are small companies with fewer funds and few entrepreneurs, But despite being a small company it has an immense
@@ -102,7 +102,7 @@ There are many more startup leaders who also have similar big ideas and are dari
         Start-up indeed is the seeds that help to grow a more powerful and technically strong nation. India is on the path to build
         a nation that attracts and inspires not only the citizens of our county but also other nations. Start-ups are playing a key
         role in economic growth and they create more jobs which mean more employment and which results in an improved economy.</string>
-    <string name="blog2">2. Build your own Cloud Storage System using Nextcloud</string>
+    <string name="blog2">2. Build your own Cloud Storage System using <b>Nextcloud</b></string>
     <string name="blog2_detail">Why waste valuable storage space on your PC or phone when you can store documents and media in the cloud?
         Computer systems have been steadily moving away from local storage to remote, server based storage and processing – which is also known
         as the cloud.
@@ -111,7 +111,7 @@ There are many more startup leaders who also have similar big ideas and are dari
         stored on hardware that is in a remote physical location, which can then be accessed from any device over the Internet. Cloud storage
         delivers a cost-effective, scalable alternative to storing files in on-premise hard drives or storage networks.
         If you don’t yet have a service for storing and syncing your data in the cloud, you should seriously consider using one.</string>
-    <string name="blog3">3. Build a Backup and Recovery Solution with Duplicati</string>
+    <string name="blog3">3. Build a Backup and Recovery Solution with <b>Duplicati</b></string>
     <string name="blog3_detail">Data volume has been growing exponentially, and dramatically increasing opportunities for theft and accidental disclosure
         of sensitive information as well as sequential data loss. The most important preventive measure against data loss is to back
         up all your data and create recovery mechanisms.
@@ -167,4 +167,84 @@ There are many more startup leaders who also have similar big ideas and are dari
         premier, mainstream schools of Delhi, under the Right to Education act, in the EWS category. Our mission is to empower these kids to strike a
         balance for a better socio- economic development in their lives. Our Aim is to maximise the benefit
         these children have been given due to the government’s policy of inclusion and help them take a leap in life, by enhancing their skills.</string>
+    <string name="our_vision_at_smagara">To develop happy, responsible, sensitive, academically oriented, balanced kids .  To train the children to
+        set themselves clear goals and to encourage and direct them to work towards achieving them. To empower the children with the skills of rationalization,
+        to enable them to take critical life decisions later. To inspire individual, responsible, creative thinking.</string>
+    <string name="faq_ques_1">How do we become a member?</string>
+    <string name="faq_ans_1">You can join us through any of the platforms/channels.\n
+        www.linkedin.com/company/prabisha \n
+        www.facebook.com/prabishastartupnetwork \n
+        www.instagram.com/ \n
+        www.twitter.com/prabishac
+    </string>
+    <string name="faq_ques_2">Is there any criteria that you look for before publishing a startup story?
+    </string>
+    <string name="faq_ans_2">Although our focus areas are technology, education, women empowerment, healthcare,
+        rural development and social sector but we wish to encourage all the thought leaders who have dared to bring a change.
+    </string>
+    <string name="faq_ques_3">What all platforms do you publish your stories on?
+    </string>
+    <string name="faq_ans_3">Linkedin, Facebook, Twitter, YouTube are some of the social media platforms we are using at pres
+    </string>
+    <string name="faq_ques_4">What are the various modes in which you conduct the interviews ?
+    </string>
+    <string name="faq_ans_4">We conduct interviews through online video platforms.
+    </string>
+    <string name="faq_ques_5">If I come to you with an idea in what all ways will you be able to help me?
+    </string>
+    <string name="faq_ans_5">We would be able to help you with various.  services like digital marketing, web development, graphic designing at a reasonable cost.
+        Not only this but we would be able to provide all other resources through our vast startup network which is growing fast.
+    </string>
+    <string name="faq_ques_6">What are the benefits of being a part of Prabisha Startup Network?
+    </string>
+    <string name="faq_ans_6">It would help you reach out to the larger audience.
+        It will give you a platform wherein you can share, collaborate and innovate new ideas with other thought leaders.
+    </string>
+    <string name="faq_ques_7">Do you charge any fee for interviewing or sharing success stories of startups?
+    </string>
+    <string name="faq_ans_7">No, We do not charge any fees. You only need to get in touch with us to proceed further.
+    </string>
+    <string name="faq_ques_8">What is the eligibility criteria to join PSN?
+    </string>
+    <string name="faq_ans_8">Your startup should be 6 months to 5 years old.The offerings can be regular/unique.
+    </string>
+    <string name="faq_ques_9">Why do Investors invest in Startups?
+    </string>
+    <string name="faq_ans_9">Investing in startups is a risky proposition, but the low requirement for overhead
+        capital combined with high upside potential, makes it lucrative for investors to put their bets on startups.
+
+The Thomson Reuters Venture Capital Research Index replicated the performance of the venture capital industry in
+        2012 and found that overall venture capital has returned at an annual
+        rate of 20% since 1996 – far outperforming modest returns of 7.5% and 5.9% from public equities and bonds respectively.
+    </string>
+    <string name="internshp_detail">At PSN, you have the chance to gain deep insights into different areas of work while you are still studying.
+
+Join us for an internship and realize your dreams with us.
+
+Interested students can send their resume to psn@prabisha.com</string>
+    <string name="address">Headquarters : D4/4029, Vasant Kunj,New Delhi - 110070 \n \n
+         Bangalore : 3051, Prabisha Consulting \n
+        Prestige Sunnyside Oak \n
+        Sarjapur ORR, Bangalore - 560103</string>
+    <string name="social_startup_detail">A social entrepreneur takes initiatives to solve community-based problems. They take on the risk and make
+        effort to create positive changes in society through their initiatives. At PSN, we encourage such changemakers and provide all possible support
+        to their endeavours. Glad to introduce some of such wonderful changemakers on PSN platform</string>
+    
+    <string name="website_dev_detail">We design professional websites for your online presence.</string>
+    <string name="digital_marketing_detail">Our Digital Marketing services can boost up your lead generation in a short span of time. </string>
+    <string name="video_ani_detail">Video and Animation are key to increase your reach today. Do let us know your requirements.</string>
+    <string name="servivces_intro">Prabisha is focused on providing customised business solutions to budding and visionary Entrepreneurs and Startup Leaders.
+        They provide their services in the areas of 3D’s – Development, Design and Digital Marketing. </string>
+    <string name="Learning_and_development">Learning and development is quintessential for any organization. By constantly up-skilling employees,
+        companies grow and add more value. It also plays a critical role in employee engagement.
+
+Fast growing start ups need support to help them in L and D and we aim to provide them support by identifying the L and D need and customised solutions
+        with help of our partners.</string>
+    <string name="carresr_detail">Startups are seeds of a great revolution. If you have ideas, ingenuity and a passion
+        for developing something new, making a difference, come and be a part of our team.
+We are a diverse team of exceptional people, the latest and promising tech and business companies across industries.
+Together, we work to bring meaningful and sustainable change to make this world a better place for everyone.
+
+Come join us to start a new journey. Interested people can send their resume to psn@prabisha.com</string>
+
 </resources>

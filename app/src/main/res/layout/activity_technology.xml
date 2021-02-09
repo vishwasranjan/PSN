@@ -20,7 +20,9 @@
                 android:textColor="@color/TextBackgroundColour"
                 android:text="Startups in Technology"
                 android:textSize="25dp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_margin="10dp"/>
 
 
             <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
@@ -37,7 +39,8 @@
                 android:text=" Intentico"
                 android:gravity="center"
                 android:textSize="25dp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:textColor="@color/text_colour"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -48,7 +51,8 @@
                 android:textSize="20dp"
                 android:layout_margin="20dp"
                 android:background="@color/TextBackgroundColour"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:gravity="center"/>
 
 
         </LinearLayout>

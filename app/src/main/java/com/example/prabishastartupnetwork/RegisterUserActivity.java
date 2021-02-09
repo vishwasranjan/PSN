@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -38,6 +39,8 @@ public class RegisterUserActivity extends AppCompatActivity {
     private GoogleSignInClient mGoogleSignInClient;
     public static final int RC_SIGN_IN=123;
 
+    LinearLayout back_image;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +54,32 @@ public class RegisterUserActivity extends AppCompatActivity {
         btn_already_have_a_account=findViewById(R.id.alredy_have_account);
         google_signin=findViewById(R.id.google_signin);
         createRequest();
+
+
+
+        back_image=findViewById(R.id.back_image);
+        int[] imageArray = {R.drawable.feedmetting, R.drawable.one, R.drawable.two,
+                R.drawable.three, R.drawable.four,};
+
+        Handler handler = new Handler();
+        Runnable runnable = new Runnable() {
+            int i = 0;
+
+            public void run() {
+                back_image.setBackgroundResource(imageArray[i]);
+                i++;
+                if (i > imageArray.length - 1) {
+                    i = 0;
+                }
+                handler.postDelayed(this, 3000);
+            }
+        };
+        handler.postDelayed(runnable, 3000);
+
+
+
+
+
 
         google_signin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -82,7 +111,12 @@ public class RegisterUserActivity extends AppCompatActivity {
                 }
             }
         });
+
+
+
     }
+
+
     public void TransitionToFeedlayoutactivity()
     {
         //Transition to feed activity after signin sucessfully

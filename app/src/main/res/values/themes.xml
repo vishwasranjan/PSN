@@ -2,7 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.PrabishaStartupNetwork" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/TextBackgroundColour</item>
+        <item name="font">@font/poppins</item>
+        <item name="colorPrimary">#e25822</item>
         <item name="colorPrimaryVariant">#050505</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
@@ -15,6 +16,7 @@
     </style>
     <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="windowActionBar">false</item>
+        <item name="font">@font/poppins</item>
         <item name="windowNoTitle">true</item>
     </style>
 </resources>

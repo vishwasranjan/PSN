@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".HomeLayout"
     android:orientation="vertical"
-    android:background="@color/TextBackgroundColour">
+    android:background="@color/text_colour">
 
 
     <GridLayout
@@ -14,7 +14,7 @@
         android:layout_height="match_parent"
         android:alignmentMode="alignMargins"
         android:columnCount="2"
-        android:rowCount="5"
+        android:rowCount="6"
         android:columnOrderPreserved="false"
         android:padding="15dp">
 
@@ -127,41 +127,7 @@
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="8dp"
-            android:id="@+id/psnvideo_cardview">
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_margin="16dp"
-                android:orientation="vertical">
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="center_horizontal"
-                    android:src="@drawable/ic_video"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="PSN Video"
-                    android:textStyle="bold"
-                    android:textSize="16sp"
-                    android:textColor="@color/black"
-                    android:layout_gravity="center"
-                    android:textAlignment="center"/>
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -188,7 +154,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="News"
+                    android:text="Startup News"
                     android:textStyle="bold"
                     android:textSize="16sp"
                     android:textColor="@color/black"
@@ -216,19 +182,11 @@
                 android:layout_margin="16dp"
                 android:orientation="vertical">
                 <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/ic_event"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Events"
-                    android:textStyle="bold"
-                    android:textSize="16sp"
-                    android:textColor="@color/black"
-                    android:layout_gravity="center"
-                    android:textAlignment="center"/>
+                    android:src="@drawable/prabisha_consulting"/>
+
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -312,7 +270,7 @@
             android:layout_marginBottom="16dp"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
-            android:id="@+id/quiz_cardview">
+            android:id="@+id/service_cardview">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -324,11 +282,46 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/ic_quiz"/>
+                    android:src="@drawable/ic_service"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Quiz"
+                    android:text="Services"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            android:id="@+id/forum_cardview">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/nav_forum"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Forum"
                     android:textStyle="bold"
                     android:textSize="16sp"
                     android:textColor="@color/black"
@@ -359,7 +352,7 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/ic_contact"/>
+                    android:src="@drawable/ic_contact" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -372,6 +365,7 @@
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
+
     </GridLayout>
 
 </RelativeLayout>

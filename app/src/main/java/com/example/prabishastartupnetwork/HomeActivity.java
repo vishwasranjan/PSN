@@ -17,7 +17,7 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
         setTitle("Home");
         social_media_creatives_add=findViewById(R.id.social_media_creative_add);
-        social_media_creatives_add.animate().rotationXBy(360*4).setDuration(4000);
+        social_media_creatives_add.animate().rotationXBy(360*4).setDuration(2000);
         social_media_creatives_add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

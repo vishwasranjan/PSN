@@ -21,7 +21,9 @@
                 android:textColor="@color/TextBackgroundColour"
                 android:text="Startups in Healthcare"
                 android:textSize="25dp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:gravity="center"/>
 
 
             <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
@@ -38,6 +40,7 @@
                 android:text="Wings Within"
                 android:gravity="center"
                 android:textSize="25dp"
+                android:textColor="@color/text_colour"
                 android:textStyle="bold"/>
 
             <TextView
@@ -49,7 +52,8 @@
                 android:textSize="20dp"
                 android:layout_margin="20dp"
                 android:background="@color/TextBackgroundColour"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:gravity="center"/>
 
 
         </LinearLayout>

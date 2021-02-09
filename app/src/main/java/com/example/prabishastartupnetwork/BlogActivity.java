@@ -13,6 +13,7 @@ public class BlogActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_blog);
+        setTitle("Blog");
         blog1=findViewById(R.id.blog1);
         blog1_detail=findViewById(R.id.blog1_detail);
         blog2=findViewById(R.id.blog2);

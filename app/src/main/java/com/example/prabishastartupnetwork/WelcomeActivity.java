@@ -71,8 +71,8 @@ public class WelcomeActivity extends AppCompatActivity implements NavigationView
                 startActivity(NewsIntent);
                 break;
             case R.id.nav_events:
-                Intent EventsIntent=new Intent(this,EventsActivity.class);
-                startActivity(EventsIntent);
+//                Intent EventsIntent=new Intent(this,EventsActivity.class);
+//                startActivity(EventsIntent);
                 break;
             case R.id.nav_resources:
                 Intent ResourcesIntent=new Intent(this,ResourcesActivity.class);
@@ -87,8 +87,8 @@ public class WelcomeActivity extends AppCompatActivity implements NavigationView
                 startActivity(ForumIntent);
                 break;
             case R.id.nav_quiz:
-                Intent QuizIntent=new Intent(this,QuizActivity.class);
-                startActivity(QuizIntent);
+//                Intent QuizIntent=new Intent(this,QuizActivity.class);
+//                startActivity(QuizIntent);
                 break;
             case R.id.nav_contact:
                 Intent ContactIntent=new Intent(this,ContactActivity.class);

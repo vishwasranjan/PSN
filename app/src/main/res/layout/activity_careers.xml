@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CareersActivity"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="35dp"
+                android:text="Welcome to PSN"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/black"
+                android:layout_marginRight="60dp"
+                android:layout_marginLeft="60dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="italic"
+                android:textSize="15dp"
+                android:textColor="@color/TextBackgroundColour"
+                android:text="Experiment , Learn , Share , Grow."
+                android:gravity="center"/>
+            <TextView
+                android:layout_margin="30dp"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textSize="20sp"
+                android:lineSpacingExtra="5sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/carresr_detail"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

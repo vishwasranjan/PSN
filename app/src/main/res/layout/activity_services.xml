@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServicesActivity"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:text="@string/servivces_intro"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/text_colour"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/black"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:textColor="@color/text_colour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Services_Website_Development"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="start" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/web_design_image"
+        android:layout_gravity="center_vertical"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="5sp"
+                    android:textStyle="italic"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/website_dev_detail"/>
+            </LinearLayout>
+            <TextView
+                android:textColor="@color/text_colour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Services_Digital_Marketing"
+                android:layout_margin="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="start" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/digital_marketing_image"
+                    android:layout_gravity="center_vertical"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="5sp"
+                    android:textStyle="italic"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/digital_marketing_detail"/>
+            </LinearLayout>
+
+            <TextView
+                android:textColor="@color/text_colour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Services_Video_Animation_Prod"
+                android:layout_margin="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="start" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/video_animation_image"
+                    android:layout_gravity="center_vertical"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="5sp"
+                    android:textStyle="italic"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/video_ani_detail"/>
+            </LinearLayout>
+
+            <TextView
+                android:textColor="@color/text_colour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Services_Branding_marketing"
+                android:layout_margin="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="start" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/branding_marketing_image"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:textColor="@color/text_colour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Services_Company_Registration"
+                android:layout_margin="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="start" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/company_registration_image"
+                    android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+
+            <TextView
+                android:textColor="@color/text_colour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Services_Hiring_Support"
+                android:layout_margin="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="start" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/hiring_support_image"
+                    android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

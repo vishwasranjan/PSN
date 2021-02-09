@@ -36,14 +36,15 @@
                 android:id="@+id/blog1"
                 android:gravity="center"
                 android:textSize="25dp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:textColor="@color/text_colour"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/blog1_detail"
                 android:paddingTop="15dp"
                 android:gravity="center"
-                android:textSize="20dp" />
+                android:textSize="20dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_marginTop="20dp"
@@ -52,7 +53,8 @@
                 android:id="@+id/blog2"
                 android:gravity="center"
                 android:textSize="25dp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:textColor="@color/text_colour"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -68,7 +70,8 @@
                 android:id="@+id/blog3"
                 android:gravity="center"
                 android:textSize="25dp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:textColor="@color/text_colour"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
