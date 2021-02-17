@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".InternshipAvtivity"
+    tools:context="com.prabishastartup.psn.app.startup.prabisha.InternshipAvtivity"
     android:orientation="vertical">
     <TextView
         android:layout_width="wrap_content"
@@ -32,7 +32,7 @@
         android:gravity="center"/>
     <TextView
         android:layout_margin="30dp"
-        android:textColor="@color/design_default_color_on_secondary"
+        android:textColor="@color/text_colour"
         android:textSize="20sp"
         android:lineSpacingExtra="5sp"
         android:gravity="center"

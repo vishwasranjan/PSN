@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".logInActivity"
+    tools:context="com.prabishastartup.psn.app.startup.prabisha.logInActivity"
     android:orientation="vertical"
     android:id="@+id/back_image_login"
     android:background="@drawable/feedmetting">

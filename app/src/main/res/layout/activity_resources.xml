@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeLayout"
+    tools:context="com.prabishastartup.psn.app.startup.prabisha.HomeLayout"
     android:orientation="vertical"
     android:background="@color/text_colour">
     <ScrollView
@@ -53,7 +53,7 @@
                     android:text="PSN Video"
                     android:textStyle="bold"
                     android:textSize="20sp"
-                    android:textColor="@color/text_colour"
+                    android:textColor="@color/black"
                     android:layout_gravity="center"
                     android:textAlignment="center"/>
             </LinearLayout>
@@ -84,7 +84,7 @@
                     android:text="Mentors"
                     android:textStyle="bold"
                     android:textSize="20sp"
-                    android:textColor="@color/text_colour"
+                    android:textColor="@color/black"
                     android:layout_gravity="center"
                     android:textAlignment="center"/>
             </LinearLayout>
@@ -117,7 +117,7 @@
                     android:text="Mentees"
                     android:textStyle="bold"
                     android:textSize="20sp"
-                    android:textColor="@color/text_colour"
+                    android:textColor="@color/black"
                     android:layout_gravity="center"
                     android:textAlignment="center"/>
             </LinearLayout>
@@ -148,7 +148,7 @@
                     android:text="Learning"
                     android:textStyle="bold"
                     android:textSize="20sp"
-                    android:textColor="@color/text_colour"
+                    android:textColor="@color/black"
                     android:layout_gravity="center"
                     android:textAlignment="center"/>
             </LinearLayout>
@@ -179,7 +179,7 @@
                     android:text="FAQ's"
                     android:textStyle="bold"
                     android:textSize="20sp"
-                    android:textColor="@color/text_colour"
+                    android:textColor="@color/black"
                     android:layout_gravity="center"
                     android:textAlignment="center"/>
             </LinearLayout>
@@ -210,7 +210,7 @@
                     android:text="Internship"
                     android:textStyle="bold"
                     android:textSize="20sp"
-                    android:textColor="@color/text_colour"
+                    android:textColor="@color/black"
                     android:layout_gravity="center"
                     android:textAlignment="center"/>
             </LinearLayout>
@@ -241,7 +241,7 @@
                     android:text="Careers"
                     android:textStyle="bold"
                     android:textSize="20sp"
-                    android:textColor="@color/text_colour"
+                    android:textColor="@color/black"
                     android:layout_gravity="center"
                     android:textAlignment="center"/>
             </LinearLayout>
@@ -272,7 +272,7 @@
                     android:text="Startup Quiz"
                     android:textStyle="bold"
                     android:textSize="20sp"
-                    android:textColor="@color/text_colour"
+                    android:textColor="@color/black"
                     android:layout_gravity="center"
                     android:textAlignment="center"/>
             </LinearLayout>

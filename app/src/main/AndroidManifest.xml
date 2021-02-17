@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.prabishastartupnetwork">
+    package="com.prabishastartup.psn">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,60 +11,111 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PrabishaStartupNetwork">
-        <activity android:name=".ServicesActivity"></activity>
+        <activity android:name="com.prabishastartup.psn.ServicesActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".CareersActivity"/>
+            android:name="com.prabishastartup.psn.CareersActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
         <activity
-            android:name=".InternshipAvtivity" />
+            android:name="com.prabishastartup.psn.InternshipAvtivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
         <activity
-            android:name=".FAQsActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:name="com.prabishastartup.psn.FAQsActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
         <activity
-            android:name=".LandDActivity" />
+            android:name="com.prabishastartup.psn.LandDActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
         <activity
-            android:name=".ManteesActivity" />
+            android:name="com.prabishastartup.psn.ManteesActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
         <activity
-            android:name=".MentorsActivity" />
+            android:name="com.prabishastartup.psn.MentorsActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
         <activity
-            android:name=".HomeLayout"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".InternationalActivity" />
-        <activity android:name=".RuralActivity" />
-        <activity android:name=".WomenActivity" />
-        <activity android:name=".SocialWorkActivity" />
-        <activity android:name=".HealthcareActivity" />
-        <activity android:name=".EducationActivity" />
-        <activity android:name=".TechnologyActivity" />
+            android:name="com.prabishastartup.psn.HomeLayout"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.prabishastartup.psn.InternationalActivity" />
+        <activity android:name="com.prabishastartup.psn.RuralActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.prabishastartup.psn.WomenActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.prabishastartup.psn.SocialWorkActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.prabishastartup.psn.HealthcareActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.prabishastartup.psn.EducationActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.prabishastartup.psn.TechnologyActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
         <activity
-            android:name=".logInActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ContactActivity" />
+            android:name="com.prabishastartup.psn.logInActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.prabishastartup.psn.ContactActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
         <activity
-            android:name=".StartQuizActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:name="com.prabishastartup.psn.StartQuizActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
         <activity
-            android:name=".ForumActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".BlogActivity" />
-        <activity android:name=".ResourcesActivity" />
-        <activity android:name=".NewsActivity" />
-        <activity android:name=".PSNVideoActivity" />
-        <activity android:name=".StartupStoryActivity" />
+            android:name="com.prabishastartup.psn.ForumActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.prabishastartup.psn.BlogActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.prabishastartup.psn.ResourcesActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.prabishastartup.psn.NewsActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.prabishastartup.psn.PSNVideoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.prabishastartup.psn.StartupStoryActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
         <activity
-            android:name=".HomeActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:name="com.prabishastartup.psn.HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
         <activity
-            android:name=".WelcomeActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:name="com.prabishastartup.psn.RegisterUserActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
         <activity
-            android:name=".RegisterUserActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:name="com.prabishastartup.psn.FeedActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
         <activity
-            android:name=".FeedActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:name="com.prabishastartup.psn.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
